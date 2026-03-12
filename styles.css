@@ -2,7 +2,7 @@ body{
     background-color: #06060c;
 }
 main{
-    background-color: #04041b;
+
 }
 p {
     color: white;
@@ -17,10 +17,18 @@ h1 {
 }
 header {
     position: fixed;
+    background-color: #04041b;
+    width: 100%;
 }
 nav {
     position: fixed;
+    top: 9%;
+    background-color: #04041b;
+    width: 100%;
 }
 footer {
     position: fixed;
+    top: 93%;
+    background-color: #04041b;
+    width: 100%;
 }
