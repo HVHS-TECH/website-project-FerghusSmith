@@ -13,8 +13,8 @@ h1 {
 .wrap {
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 10fr 1fr;
+    grid-template-rows: auto auto auto auto;
 }
-footer {
+header {
     position: fixed;
 }
