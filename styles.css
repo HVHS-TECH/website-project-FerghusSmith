@@ -10,3 +10,8 @@ p {
 h1 {
     color: white;
 }
+.wrap {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+}
