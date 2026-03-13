@@ -17,36 +17,40 @@ h1 {
 }
 header {
     position: fixed;
-    background-color: #04041b;
+    background-color: blue;
     width: 100%;
     padding:10px;
+    height:40px;
 }
 nav {
     position: fixed;
     top: 9%;
-    background-color: #04041b;
+    background-color: blue;
     width: 100%;
     padding:10px;
+    height:40px;
 }
 footer {
     position: fixed;
     top: 93%;
-    background-color: #04041b;
+    background-color: blue;
     width: 100%;
     padding:10px;
+    height:40px;
 }
 .SiteContainer {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 15% 20% 20% 20% 20% 20%;
+    grid-template-rows: 18% 20% 20% 20% 20% 20%;
     color:white;
-    height: 300%;
+    height: 200%;
     gap: 5px;
 }
 
 .item0 {
     grid-column: 1 / span 5;
-    background-color: #04041b;
+    background-color: #06060c;
+    color: #06060c;
 }
 .item1 {
     grid-column: 1 / span 5;
