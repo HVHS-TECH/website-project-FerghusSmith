@@ -93,3 +93,7 @@ footer {
     grid-column: 4 / span 2;
     background-color: #04041b;
 }
+
+.BugFix {
+    color: #06060c;
+}
