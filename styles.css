@@ -40,10 +40,9 @@ footer {
 }
 .SiteContainer {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-template-columns: 4fr 2fr 6fr 2fr 4fr;
+    grid-template-rows: 120px 200px 200px 120px 120px;
     color:white;
-    height: 80%;
     gap: 5px;
 }
 
