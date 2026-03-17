@@ -17,7 +17,7 @@ h1 {
 }
 header {
     position: fixed;
-    background-color: blue;
+    background-color: #04041b;
     width: 100%;
     padding:10px;
     height:50px;
@@ -27,7 +27,7 @@ header {
 nav {
     position: fixed;
     top: 9%;
-    background-color: blue;
+    background-color: #04041b;
     width: 110%;
     padding:10px;
     height:40px;
@@ -36,7 +36,7 @@ nav {
 footer {
     position: fixed;
     top: 93%;
-    background-color: blue;
+    background-color: #04041b;
     width: 110%;
     padding:10px;
     height:40px;
