@@ -71,8 +71,8 @@ footer {
 .item4 {
     grid-column: 4 / span 2;
     background-color: #04041b;
-    padding: 5px;
     justify-self: center;
+    width: 
 }
 .item5 {
     background-color: #04041b;
