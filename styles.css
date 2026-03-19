@@ -81,29 +81,12 @@ footer {
     justify-self: center;
     align-self: center;
 }
-.item5 {
-    background-color: #04041b;
-}
-.item6 {
-    background-color: #04041b;
-}
-.item7 {
-    background-color: #04041b;
-}
-.item8 {
-    background-color: #04041b;
-}
-.item9 {
-    background-color: #04041b;
-}
 .item10 {
     grid-column: 1 / span 2;
-    background-color: #04041b;
-}
-.item11 {
-    background-color: #04041b;
 }
 .item12 {
     grid-column: 4 / span 2;
+}
+.item {
     background-color: #04041b;
 }
