@@ -57,29 +57,14 @@ footer {
 }
 .item1 {
     grid-column: 1 / span 5;
-    background-color: #04041b;
     justify-self: center;
     align-self: center;
 }
 .item2 {
     grid-column: 1 / span 2;
-    background-color: #04041b;
-    padding: 10px;
-    justify-self: center;
-    align-self: center;
-}
-.item3 {
-    background-color: #04041b;
-    padding: 10px;
-    justify-self: center;
-    align-self: center;
 }
 .item4 {
     grid-column: 4 / span 2;
-    background-color: #04041b;
-    padding: 10px;
-    justify-self: center;
-    align-self: center;
 }
 .item10 {
     grid-column: 1 / span 2;
@@ -92,4 +77,9 @@ footer {
 }
 .row3 {
     margin-top: 20%;
+}
+.row2 {
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
 }
