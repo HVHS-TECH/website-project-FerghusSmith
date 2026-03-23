@@ -4,6 +4,7 @@ body{
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 main{
 
@@ -41,6 +42,10 @@ footer {
     padding:10px;
     height:40px;
     left: 0%;
+}
+button {
+    background-color: #fecf64;
+    
 }
 .SiteContainer {
     display: grid;
