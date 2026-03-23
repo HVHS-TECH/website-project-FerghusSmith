@@ -45,7 +45,7 @@ footer {
 }
 button {
     background-color: #fecf64;
-    border-radius: 30%;
+    border: 1px solid black;
     width: 5%;
 }
 .SiteContainer {
