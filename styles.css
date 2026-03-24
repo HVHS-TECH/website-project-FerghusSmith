@@ -37,7 +37,8 @@ nav {
 .navflex {
     display: grid;
     grid-template-columns: 10% 10% 10% 10%;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 75%;
 }
 footer {
     position: fixed;
