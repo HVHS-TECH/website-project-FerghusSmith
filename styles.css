@@ -34,6 +34,10 @@ nav {
     height:40px;
     left: 0%;
 }
+.navflex {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+}
 footer {
     position: fixed;
     top: 93%;
@@ -45,8 +49,9 @@ footer {
 }
 button {
     background-color: #fecf64;
-    border: 1px solid black;
-    width: 5%;
+
+    width: 100px;
+    height: 30px;
 }
 .SiteContainer {
     display: grid;
