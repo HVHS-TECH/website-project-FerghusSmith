@@ -34,10 +34,9 @@ nav {
     height:40px;
     left: 0%;
 }
-.navflex {
+.headergrid {
     display: grid;
-    grid-template-columns: 10% 10% 10% 10%;
-    justify-content: center;
+    grid-template-columns: 30% 10% 10% 10% 10%;
 }
 footer {
     position: fixed;
