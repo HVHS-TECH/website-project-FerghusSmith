@@ -41,7 +41,7 @@ footer {
 button {
     background-color: #fecf64;
     width: 100px;
-    height: 30px;
+    height: 30px; 
 }
 .SiteContainer {
     display: grid;
