@@ -29,7 +29,7 @@ nav {
     position: fixed;
     top: 9%;
     background-color: #04041b;
-    width: 110%;
+    width: 100%;
     padding:10px;
     height:40px;
     left: 0%;
@@ -37,6 +37,7 @@ nav {
 .navflex {
     display: grid;
     grid-template-columns: 10% 10% 10% 10%;
+    justify-content: center;
 }
 footer {
     position: fixed;
@@ -49,7 +50,6 @@ footer {
 }
 button {
     background-color: #fecf64;
-
     width: 100px;
     height: 30px;
 }
