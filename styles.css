@@ -114,7 +114,7 @@ button {
         font-size: 90px;
     }
     h2 {
-        font-size: 75px;
+        font-size: 70px;
     }
     header {
         padding:10px;
@@ -142,12 +142,45 @@ button {
         margin-bottom: 10%;
     }
 }
-@media screen and (min-width: 1000px) and (max-width: 1147px) {
+@media screen and (min-width: 1019px) and (max-width: 1147px) {
     h1 {
         font-size: 80px;
     }
     h2 {
-        font-size: 75px;
+        font-size: 65px;
+    }
+    header {
+        padding:10px;
+        height:50px;
+        bottom: 90%;
+    }
+    footer {
+        top: 93%;
+        padding:10px;
+        height:40px;
+    }
+    button {
+        width: 100px;
+        height: 30px; 
+    }
+    .SiteContainer {
+        grid-template-rows: 100px 150px 310px 120px 300px;
+        gap: 5px;
+    }
+    .item1 {
+        margin-bottom: 5%;
+    }
+    .row2 {
+        padding: 10px;
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1018px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 60px;
     }
     header {
         padding:10px;
