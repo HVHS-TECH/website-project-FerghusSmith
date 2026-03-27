@@ -14,18 +14,14 @@ p {
 }
 h1 {
     color: white;
-    font-size: 100px;
 }
 h2 {
-    font-size: 75px;
     justify-self: center;
 }
 header {
     position: fixed;
     background-color: #04041b;
     width: 100%;
-    padding:10px;
-    height:50px;
     bottom: 90%;
     left: 0%;
 }
@@ -35,17 +31,12 @@ header {
 }
 footer {
     position: fixed;
-    top: 93%;
     background-color: #04041b;
     width: 110%;
-    padding:10px;
-    height:40px;
     left: 0%;
 }
 button {
     background-color: #fecf64;
-    width: 100px;
-    height: 30px; 
 }
 .SiteContainer {
     display: grid;
@@ -208,7 +199,7 @@ button {
         margin-bottom: 10%;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     h1 {
         font-size: 70px;
     }
