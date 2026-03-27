@@ -209,7 +209,7 @@ button {
     header {
         padding:10px;
         height:50px;
-        bottom: 95%;
+        top: 0%;
     }
     footer {
         top: 93%;
