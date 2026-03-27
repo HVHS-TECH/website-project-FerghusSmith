@@ -27,7 +27,6 @@ header {
 }
 .headergrid {
     display: grid;
-    grid-template-columns: 30% 10% 10% 10% 10%;
 }
 footer {
     position: fixed;
@@ -99,6 +98,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+            grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (min-width: 1148px) and (max-width: 1275px) {
     h1 {
@@ -131,6 +133,9 @@ button {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+    }
+    .headergrid {
+            grid-template-columns: 30% 10% 10% 10% 10%;
     }
 }
 @media screen and (min-width: 1050px) and (max-width: 1147px) {
@@ -165,6 +170,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+            grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (min-width: 900px) and (max-width: 1049px) {
     h1 {
@@ -197,6 +205,9 @@ button {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+    }
+    .headergrid {
+            grid-template-columns: 30% 10% 10% 10% 10%;
     }
 }
 @media screen and (min-width: 780px) and (max-width: 900px) {
@@ -231,6 +242,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+            grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (min-width: 650px) and (max-width: 779px) {
     h1 {
@@ -263,6 +277,9 @@ button {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+    }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
     }
 }
 @media screen and (min-width: 520px) and (max-width: 649px) {
@@ -297,6 +314,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (min-width: 460px) and (max-width: 519px) {
     h1 {
@@ -330,12 +350,13 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
-    .headergrid{
-        grid-template-columns:auto auto auto;
-        grid-template-rows: 40px 40px;
-    }
     .neaderTitle {
         grid-column: 1 / span 3;
+    }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
+        grid-template-columns:auto auto auto;
+        grid-template-rows: 40px 40px;
     }
 }
 @media screen and (min-width: 395px) and (max-width: 459px) {
@@ -370,6 +391,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (min-width: 330px) and (max-width: 394px) {
     h1 {
@@ -403,6 +427,9 @@ button {
         padding: 10px;
         margin-bottom: 10%;
     }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
+    }
 }
 @media screen and (max-width: 329px) {
     h1 {
@@ -435,5 +462,8 @@ button {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+    }
+    .headergrid {
+        grid-template-columns: 30% 10% 10% 10% 10%;
     }
 }
