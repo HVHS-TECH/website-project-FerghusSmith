@@ -430,7 +430,7 @@ button:hover {
     .item6 {
         order: 6;
         grid-column: 2 / span 2;
-    }
+    } 
     .item9 {
         order: 7;
         grid-column: 2 / span 2;
