@@ -416,7 +416,7 @@ button:hover {
         grid-column: 1 / span 2;
     }
     .item8 {
-        order: 9;
+
         grid-column: 1 / span 2;
     }
     .item2 {
@@ -444,11 +444,11 @@ button:hover {
         grid-column: 1 / span 2;
     }
     .item10 {
-        order: 9;
+        order: 10;
         grid-column: 1 / span 2;
     }
     .item4 {
-        order: 3;
+        order: 11;
         grid-rows: 2 / span 2;
     }
     .row2 {
