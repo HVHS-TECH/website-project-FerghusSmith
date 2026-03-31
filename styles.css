@@ -329,17 +329,15 @@ button:hover {
         height: 30px; 
     }
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
-        grid-template-columns: 1fr;
+        grid-template-rows: 100px 70px 310px 120px 300px;
         gap: 5px;
     }
     .item1 {
-        margin-bottom: 5%;
+        margin-bottom: 0%;
     }
     .row2 {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10%;
-        grid-column: 1 / span 3;
     }
     .row2 img{
         width: 190px;
