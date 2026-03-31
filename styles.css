@@ -407,55 +407,52 @@ button:hover {
         grid-template-rows: 33% 33%;
         gap: 5px;
     }
-
     .item1 {
         margin-bottom: 0%;
         order: 1;
     }
-
     .item5 {
         order: 2;
     }
-
-    .item2 {
+    .item9 {
         order: 3;
     }
-
-    .item3 {
+    .item2 {
         order: 4;
     }
-
-    .item6 {
+    .item3 {
         order: 5;
     }
-
-    .item7 {
+    .item6 {
         order: 6;
     }
-
-    .item4 {
+    .item10 {
         order: 7;
     }
-
-    .item8 {
+    .item7 {
         order: 8;
     }
-
+    .item11 {
+        order: 9;
+    }
+    .item4 {
+        order: 10;
+    }
+    .item8 {
+        order: 1;
+    }
     .row2 {
         padding: 5px;
         margin-bottom: 10%;
     }
-
     .row2 img {
         width: 100px;
         height: 100px;
     }
-
     .headerTitle {
         grid-column: 1 / span 4;
         justify-self: center;
     }
-
     .headergrid {
         grid-template-columns: auto auto auto auto;
         grid-template-rows: 60px 40px;
