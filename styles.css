@@ -323,7 +323,7 @@ button:hover {
         height: 30px; 
     }
     .SiteContainer {
-        grid-template-rows: 100px 150px 200px 200px 200px;
+        grid-template-rows: 1fr;
         gap: 5px;
     }
     .item1 {
