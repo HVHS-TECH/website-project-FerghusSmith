@@ -96,6 +96,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -132,6 +133,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -168,6 +170,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -204,6 +207,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -244,6 +248,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -284,6 +289,7 @@ button:hover {
     }
     .SiteContainer {
         grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
     }
     .item1 {
@@ -323,7 +329,8 @@ button:hover {
         height: 30px; 
     }
     .SiteContainer {
-        grid-template-rows: 1fr;
+        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-columns: 1fr;
         gap: 5px;
     }
     .item1 {
@@ -332,6 +339,7 @@ button:hover {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+        grid-column: 1 / span 3;
     }
     .row2 img{
         width: 190px;
