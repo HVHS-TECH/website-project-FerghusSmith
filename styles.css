@@ -250,7 +250,7 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 100px 270px 80px 300px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -301,7 +301,7 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 100px 230px 75px 300px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -352,7 +352,7 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 60px 250px 60px 300px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -376,7 +376,7 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 520px) and (max-width: 649px) {
+@media screen and (min-width: 531px) and (max-width: 649px) {
     h1 {
         font-size: 40px;
     }
@@ -403,8 +403,7 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 70px 310px 120px 300px;
-        grid-template-rows: 33% 33%;
+        grid-template-rows: 110px 70px 40px 200px 40px 200px 40px 200px;
         gap: 5px;
     }
     .item1 {
@@ -423,20 +422,20 @@ button:hover {
         order: 4;
         grid-rows: 2 / span 2;
     }
-    .item3 {
-        order: 5;
-        grid-rows: 2 / span 2;
-    }
     .item6 {
         order: 6;
         grid-column: 2 / span 2;
     } 
-    .item9 {
+    .item3 {
         order: 7;
+        grid-rows: 2 / span 2;
+    }
+    .item9 {
+        order: 8;
         grid-column: 2 / span 2;
     }
     .item7 {
-        order: 8;
+        order: 9;
         grid-column: 1 / span 2;
     }
     .item10 {
@@ -450,10 +449,11 @@ button:hover {
     .row2 {
         padding: 5px;
         margin-bottom: 10%;
+        align-content: center;
     }
     .row2 img {
-        width: 100px;
-        height: 100px;
+        width: 175px;
+        height: 175px;
     }
     .headerTitle {
         grid-column: 1 / span 4;
@@ -465,7 +465,7 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 460px) and (max-width: 519px) {
+@media screen and (min-width: 462px) and (max-width: 530px) {
     h1 {
         font-size: 35px;
     }
@@ -492,31 +492,69 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 110px 70px 40px 200px 40px 200px 40px 200px;
         gap: 5px;
     }
-
     .item1 {
-        margin-bottom: 5%;
+        margin-bottom: 0%;
+        order: 1;
     }
-
+    .item5 {
+        order: 2;
+        grid-column: 1 / span 2;
+    }
+    .item8 {
+        order: 3;
+        grid-column: 1 / span 2;
+    }
+    .item2 {
+        order: 4;
+        grid-rows: 2 / span 2;
+    }
+    .item6 {
+        order: 6;
+        grid-column: 2 / span 2;
+    } 
+    .item3 {
+        order: 7;
+        grid-rows: 2 / span 2;
+    }
+    .item9 {
+        order: 8;
+        grid-column: 2 / span 2;
+    }
+    .item7 {
+        order: 9;
+        grid-column: 1 / span 2;
+    }
+    .item10 {
+        order: 10;
+        grid-column: 1 / span 2;
+    }
+    .item4 {
+        order: 11;
+        grid-rows: 2 / span 2;
+    }
     .row2 {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10%;
+        align-content: center;
     }
-
+    .row2 img {
+        width: 150px;
+        height: 150px;
+    }
     .headerTitle {
         grid-column: 1 / span 4;
         justify-self: center;
     }
-
     .headergrid {
         grid-template-columns: auto auto auto auto;
         grid-template-rows: 60px 40px;
     }
 }
 
-@media screen and (min-width: 395px) and (max-width: 459px) {
+@media screen and (min-width: 400px) and (max-width: 461px) {
     h1 {
         font-size: 30px;
     }
@@ -543,17 +581,57 @@ button:hover {
     }
 
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 110px 70px 30px 150px 30px 150px 30px 150px;
         gap: 5px;
     }
-
     .item1 {
-        margin-bottom: 5%;
+        margin-bottom: 0%;
+        order: 1;
     }
-
+    .item5 {
+        order: 2;
+        grid-column: 1 / span 2;
+    }
+    .item8 {
+        order: 3;
+        grid-column: 1 / span 2;
+    }
+    .item2 {
+        order: 4;
+        grid-rows: 2 / span 2;
+    }
+    .item6 {
+        order: 6;
+        grid-column: 2 / span 2;
+    } 
+    .item3 {
+        order: 7;
+        grid-rows: 2 / span 2;
+    }
+    .item9 {
+        order: 8;
+        grid-column: 2 / span 2;
+    }
+    .item7 {
+        order: 9;
+        grid-column: 1 / span 2;
+    }
+    .item10 {
+        order: 10;
+        grid-column: 1 / span 2;
+    }
+    .item4 {
+        order: 11;
+        grid-rows: 2 / span 2;
+    }
     .row2 {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10%;
+        align-content: center;
+    }
+    .row2 img {
+        width: 125px;
+        height: 125px;
     }
 
     .headerTitle {
@@ -567,7 +645,7 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 330px) and (max-width: 394px) {
+@media screen and (min-width: 341px) and (max-width: 399px) {
     h1 {
         font-size: 25px;
     }
@@ -592,19 +670,58 @@ button:hover {
         width: 100px;
         height: 30px;
     }
-
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 110px 70px 30px 125px 30px 125px 30px 125px;
         gap: 5px;
     }
-
     .item1 {
-        margin-bottom: 5%;
+        margin-bottom: 0%;
+        order: 1;
     }
-
+    .item5 {
+        order: 2;
+        grid-column: 1 / span 2;
+    }
+    .item8 {
+        order: 3;
+        grid-column: 1 / span 2;
+    }
+    .item2 {
+        order: 4;
+        grid-rows: 2 / span 2;
+    }
+    .item6 {
+        order: 6;
+        grid-column: 2 / span 2;
+    } 
+    .item3 {
+        order: 7;
+        grid-rows: 2 / span 2;
+    }
+    .item9 {
+        order: 8;
+        grid-column: 2 / span 2;
+    }
+    .item7 {
+        order: 9;
+        grid-column: 1 / span 2;
+    }
+    .item10 {
+        order: 10;
+        grid-column: 1 / span 2;
+    }
+    .item4 {
+        order: 11;
+        grid-rows: 2 / span 2;
+    }
     .row2 {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10%;
+        align-content: center;
+    }
+    .row2 img {
+        width: 100px;
+        height: 100px;
     }
 
     .headerTitle {
@@ -618,7 +735,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 340px) {
     h1 {
         font-size: 20px;
     }
@@ -643,19 +760,58 @@ button:hover {
         width: 100px;
         height: 30px;
     }
-
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 110px 70px 20px 100px 20px 100px 20px 100px;
         gap: 5px;
     }
-
     .item1 {
-        margin-bottom: 5%;
+        margin-bottom: 0%;
+        order: 1;
     }
-
+    .item5 {
+        order: 2;
+        grid-column: 1 / span 2;
+    }
+    .item8 {
+        order: 3;
+        grid-column: 1 / span 2;
+    }
+    .item2 {
+        order: 4;
+        grid-rows: 2 / span 2;
+    }
+    .item6 {
+        order: 6;
+        grid-column: 2 / span 2;
+    } 
+    .item3 {
+        order: 7;
+        grid-rows: 2 / span 2;
+    }
+    .item9 {
+        order: 8;
+        grid-column: 2 / span 2;
+    }
+    .item7 {
+        order: 9;
+        grid-column: 1 / span 2;
+    }
+    .item10 {
+        order: 10;
+        grid-column: 1 / span 2;
+    }
+    .item4 {
+        order: 11;
+        grid-rows: 2 / span 2;
+    }
     .row2 {
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 10%;
+        align-content: center;
+    }
+    .row2 img {
+        width: 75px;
+        height: 75px;
     }
 
     .headerTitle {
