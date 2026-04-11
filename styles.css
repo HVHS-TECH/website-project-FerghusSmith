@@ -40,7 +40,7 @@ button:hover {
 }
 .SiteContainer {
     display: grid;
-    grid-template-rows: 100px 150px 310px 120px 300px;
+    grid-template-rows: 100px 150px 310px 120px 600px;
     color: white;
     gap: 5px;
 }
@@ -89,7 +89,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 150px 310px 120px 600px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -99,6 +99,9 @@ button:hover {
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
+    }
+    .row4 {
+        padding: 10px;
     }
     .headergrid {
         grid-template-columns: 20% 15% 15% 15% 15%;
@@ -126,7 +129,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 150px 310px 120px 600px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -163,7 +166,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 150px 310px 120px 300px;
+        grid-template-rows: 100px 150px 310px 120px 650px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -200,7 +203,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 100px 270px 80px 300px;
+        grid-template-rows: 100px 100px 270px 80px 700px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -241,7 +244,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 100px 230px 75px 300px;
+        grid-template-rows: 100px 100px 230px 75px 800px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -282,7 +285,7 @@ button:hover {
         height: 30px;
     }
     .SiteContainer {
-        grid-template-rows: 100px 60px 250px 60px 300px;
+        grid-template-rows: 100px 60px 250px 60px 900px;
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
@@ -326,8 +329,14 @@ button:hover {
         width: 100px;
         height: 30px;
     }
+    p {
+        font-size: 10.5px;
+    }
+    h3 {
+        font-size: 16px;
+    }
     .SiteContainer {
-        grid-template-rows: 110px 70px 40px 200px 40px 200px 40px 200px;
+        grid-template-rows: 110px 70px 40px 400px 40px 400px 40px 200px;
         gap: 5px;
     }
     .item1 {
@@ -409,8 +418,14 @@ button:hover {
         width: 100px;
         height: 30px;
     }
+    p {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
     .SiteContainer {
-        grid-template-rows: 110px 70px 40px 200px 40px 200px 40px 200px;
+        grid-template-rows: 110px 70px 40px 400px 40px 400px 40px 200px;
         gap: 5px;
     }
     .item1 {
@@ -492,8 +507,14 @@ button:hover {
         width: 100px;
         height: 30px;
     }
+    p {
+        font-size: 9px;
+    }
+    h3 {
+        font-size: 14px;
+    }
     .SiteContainer {
-        grid-template-rows: 110px 70px 30px 150px 30px 150px 30px 150px;
+        grid-template-rows: 110px 70px 30px 400px 30px 400px 30px 150px;
         gap: 5px;
     }
     .item1 {
@@ -575,8 +596,14 @@ button:hover {
         width: 100px;
         height: 30px;
     }
+    p {
+        font-size: 8.5px;
+    }
+    h3 {
+        font-size: 13px;
+    }
     .SiteContainer {
-        grid-template-rows: 110px 70px 30px 125px 30px 125px 30px 125px;
+        grid-template-rows: 110px 70px 30px 400px 30px 400px 30px 125px;
         gap: 5px;
     }
     .item1 {
@@ -658,8 +685,14 @@ button:hover {
         width: 100px;
         height: 30px;
     }
+    p {
+        font-size: 8.5px;
+    }
+    h3 {
+        font-size: 13px;
+    }
     .SiteContainer {
-        grid-template-rows: 110px 70px 20px 100px 20px 100px 20px 100px;
+        grid-template-rows: 110px 70px 20px 400px 20px 400px 20px 100px;
         gap: 5px;
     }
     .item1 {
