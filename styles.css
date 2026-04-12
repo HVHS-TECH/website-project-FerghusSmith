@@ -93,10 +93,10 @@ button:hover {
 .p1item6 {
     grid-column: 1 / span 3;
 }
-.p1img img {
+.p1image img {
     height: 250px;
 }
-.p1img {
+.p1image {
     justify-self: center;
 }
 @media screen and (min-width: 1300px) {
@@ -252,9 +252,6 @@ button:hover {
     .row2 img {
         width: 260px;
         height: 260px;
-    }
-    .p1img img{
-        width: 210px;
     }
 }
 @media screen and (min-width: 780px) and (max-width: 900px) {
