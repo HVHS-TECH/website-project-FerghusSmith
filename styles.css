@@ -69,7 +69,7 @@ button:hover {
 }
 .SiteContainerPro1{
     display: grid;
-    grid-template-rows: 100px 150px 600px 600px 600px;
+    grid-template-rows: 100px 150px 500px 500px 500px;
     grid-template-columns: 33% 33% 33%;
     color: white;
     gap: 5px;
