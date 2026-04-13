@@ -95,6 +95,7 @@ button:hover {
 }
 .p1img {
     justify-self: center;
+    align-self: center;
 }
 @media screen and (min-width: 1300px) {
     h1 {
@@ -260,7 +261,7 @@ button:hover {
         height: 260px;
     }
     .p1img img {
-        height: 180px;
+        height: 170px;
     }
 }
 @media screen and (min-width: 780px) and (max-width: 900px) {
@@ -304,7 +305,7 @@ button:hover {
         height: 230px;
     }
     .p1img img {
-        height: 170px;
+        height: 150px;
     }
 }
 @media screen and (min-width: 650px) and (max-width: 779px) {
@@ -352,7 +353,7 @@ button:hover {
         height: 190px;
     }
     .p1img img {
-        height: 150px;
+        height: 120px;
     }
 }
 @media screen and (min-width: 531px) and (max-width: 649px) {
