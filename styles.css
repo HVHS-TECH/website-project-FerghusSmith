@@ -93,9 +93,6 @@ button:hover {
 .p1item6 {
     grid-column: 1 / span 3;
 }
-.p1img img {
-    height: 250px;
-}
 .p1img {
     justify-self: center;
 }
