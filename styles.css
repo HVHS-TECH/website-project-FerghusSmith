@@ -184,7 +184,7 @@ button:hover {
         font-size: 80px;
     }
     h2 {
-        font-size: 65px;
+        font-size: 60px;
     }
     header {
         padding: 10px;
@@ -216,7 +216,7 @@ button:hover {
         grid-template-columns: 20% 15% 15% 15% 15%;
     }
     .p1img img {
-        height: 210px;
+        height: 190px;
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1049px) {
@@ -224,7 +224,7 @@ button:hover {
         font-size: 65px;
     }
     h2 {
-        font-size: 55px;
+        font-size: 50px;
     }
     header {
         padding: 10px;
@@ -260,7 +260,7 @@ button:hover {
         height: 260px;
     }
     .p1img img {
-        height: 190px;
+        height: 180px;
     }
 }
 @media screen and (min-width: 780px) and (max-width: 900px) {
