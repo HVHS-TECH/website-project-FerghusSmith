@@ -104,6 +104,9 @@ button:hover {
     h2 {
         font-size: 75px;
     }
+    p {
+        font-size: 15px;
+    }
     header {
         padding: 10px;
         height: 50px;
@@ -147,6 +150,9 @@ button:hover {
     h2 {
         font-size: 70px;
     }
+    p {
+        font-size: 14px;
+    }
     header {
         padding: 10px;
         height: 50px;
@@ -187,6 +193,9 @@ button:hover {
     h2 {
         font-size: 60px;
     }
+    p {
+        font-size: 13px;
+    }
     header {
         padding: 10px;
         height: 50px;
@@ -226,6 +235,9 @@ button:hover {
     }
     h2 {
         font-size: 50px;
+    }
+    p {
+        font-size: 12px;
     }
     header {
         padding: 10px;
@@ -269,7 +281,10 @@ button:hover {
         font-size: 60px;
     }
     h2 {
-        font-size: 50px;
+        font-size: 45px;
+    }
+    p {
+        font-size: 11px;
     }
     header {
         padding: 10px;
@@ -313,7 +328,10 @@ button:hover {
         font-size: 50px;
     }
     h2 {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    p {
+        font-size: 10px;
     }
     header {
         padding: 10px;
