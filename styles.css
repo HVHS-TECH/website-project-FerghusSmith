@@ -485,11 +485,11 @@ button:hover {
         grid-template-rows: 60px 40px;
     }
     .SiteContainerPro1 {
-        grid-template-rows: 110px 90px 170px 170px 170px;
-        grid-template-columns: 30% 39% 30%;
+        grid-template-rows: 110px 90px 220px 220px 220px;
+        grid-template-columns: 49% 1% 49%;
     }
     .p1img img {
-        height: 110px;
+        height: 180px;
     }
 }
 @media screen and (min-width: 462px) and (max-width: 530px) {
@@ -579,6 +579,13 @@ button:hover {
     .headergrid {
         grid-template-columns: auto auto auto auto;
         grid-template-rows: 60px 40px;
+    }
+    .SiteContainerPro1 {
+        grid-template-rows: 110px 90px 220px 220px 220px;
+        grid-template-columns: 49% 1% 49%;
+    }
+    .p1img img {
+        height: 160px;
     }
 }
 @media screen and (min-width: 400px) and (max-width: 461px) {
