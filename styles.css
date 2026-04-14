@@ -424,7 +424,7 @@ button:hover {
         font-size: 16px;
     }
     .SiteContainer {
-        grid-template-rows: 150px 70px 40px 400px 40px 400px 40px 200px;
+        grid-template-rows: 110px 70px 40px 400px 40px 400px 40px 200px;
         gap: 5px;
     }
     .item1 {
@@ -483,6 +483,13 @@ button:hover {
     .headergrid {
         grid-template-columns: auto auto auto auto;
         grid-template-rows: 60px 40px;
+    }
+    .SiteContainerPro1 {
+        grid-template-rows: 110px 90px 170px 170px 170px;
+        grid-template-columns: 27% 45% 27%;
+    }
+    .p1img img {
+        height: 110px;
     }
 }
 @media screen and (min-width: 462px) and (max-width: 530px) {
