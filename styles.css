@@ -486,7 +486,7 @@ button:hover {
     }
     .SiteContainerPro1 {
         grid-template-rows: 110px 90px 170px 170px 170px;
-        grid-template-columns: 27% 45% 27%;
+        grid-template-columns: 30% 39% 30%;
     }
     .p1img img {
         height: 110px;
