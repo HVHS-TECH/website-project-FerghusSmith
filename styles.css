@@ -401,7 +401,7 @@ button:hover {
         font-size: 40px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
     header {
         padding: 10px;
@@ -485,7 +485,7 @@ button:hover {
         grid-template-rows: 60px 40px;
     }
     .SiteContainerPro1 {
-        grid-template-rows: 110px 90px 220px 220px 220px;
+        grid-template-rows: 110px 90px 190px 190px 190px;
         grid-template-columns: 49% 1% 49%;
     }
     .p1img img {
@@ -497,7 +497,7 @@ button:hover {
         font-size: 35px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 19px;
     }
     header {
         padding: 10px;
@@ -581,7 +581,7 @@ button:hover {
         grid-template-rows: 60px 40px;
     }
     .SiteContainerPro1 {
-        grid-template-rows: 110px 90px 220px 220px 220px;
+        grid-template-rows: 110px 90px 195px 195px 195px;
         grid-template-columns: 49% 1% 49%;
     }
     .p1img img {
@@ -593,7 +593,7 @@ button:hover {
         font-size: 30px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
     header {
         padding: 10px;
@@ -676,13 +676,20 @@ button:hover {
         grid-template-columns: auto auto;
         grid-template-rows: 50px 33px;
     }
+    .SiteContainerPro1 {
+        grid-template-rows: 130px 50px 180px 180px 180px;
+        grid-template-columns: 49% 1% 49%;
+    }
+    .p1img img {
+        height: 135px;
+    }
 }
 @media screen and (min-width: 341px) and (max-width: 399px) {
     h1 {
         font-size: 25px;
     }
     h2 {
-        font-size: 15px;
+        font-size: 14px;
     }
     header {
         padding: 10px;
@@ -699,7 +706,7 @@ button:hover {
         height: 30px;
     }
     p {
-        font-size: 8.5px;
+        font-size: 8.4px;
     }
     h3 {
         font-size: 13px;
@@ -764,6 +771,13 @@ button:hover {
     .headergrid {
         grid-template-columns: auto auto;
         grid-template-rows: 50px 33px;
+    }
+    .SiteContainerPro1 {
+        grid-template-rows: 130px 50px 190px 190px 190px;
+        grid-template-columns: 49% 1% 49%;
+    }
+    .p1img img {
+        height: 115px;
     }
 }
 @media screen and (max-width: 340px) {
@@ -853,5 +867,12 @@ button:hover {
     .headergrid {
         grid-template-columns: auto auto;
         grid-template-rows: 50px 33px;
+    }
+    .SiteContainerPro1 {
+        grid-template-rows: 130px 50px 190px 190px 190px;
+        grid-template-columns: 49% 1% 49%;
+    }
+    .p1img img {
+        height: 100px;
     }
 }
