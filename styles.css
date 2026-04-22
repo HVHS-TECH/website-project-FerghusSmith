@@ -499,7 +499,7 @@ button:hover {
     header {
         padding: 10px;
         height: 90px;
-        top: 0%;
+        top: 0px;
     }
     footer {
         top: 93%;
