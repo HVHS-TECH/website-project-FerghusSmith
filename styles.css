@@ -381,7 +381,7 @@ button:hover {
     }
 
     .headergrid {
-        grid-template-columns: 20% 17.5% 17.5% 17.5% 17.5% 17.5%;
+        grid-template-columns: 15% 17% 17% 17% 17% 17%;
     }
 
     .row2 img {
@@ -477,11 +477,11 @@ button:hover {
         height: 175px;
     }
     .headerTitle {
-        grid-column: 1 / span 4;
+        grid-column: 1 / span 5;
         justify-self: center;
     }
     .headergrid {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
         grid-template-rows: 60px 40px;
     }
     .SubSiteContainer {
