@@ -613,7 +613,7 @@ button:hover {
         font-size: 14px;
     }
     .SiteContainer {
-        grid-template-rows: 110px 70px 30px 400px 30px 400px 30px 150px;
+        grid-template-rows: 170px 70px 30px 400px 30px 400px 30px 150px;
         gap: 5px;
     }
     .item1 {
@@ -716,7 +716,7 @@ button:hover {
         font-size: 13px;
     }
     .SiteContainer {
-        grid-template-rows: 110px 70px 30px 400px 30px 400px 30px 125px;
+        grid-template-rows: 170px 70px 30px 400px 30px 400px 30px 125px;
         gap: 5px;
     }
     .item1 {
@@ -819,7 +819,7 @@ button:hover {
         font-size: 13px;
     }
     .SiteContainer {
-        grid-template-rows: 110px 70px 20px 400px 20px 400px 20px 100px;
+        grid-template-rows: 170px 70px 20px 400px 20px 400px 20px 100px;
         gap: 5px;
     }
     .item1 {
