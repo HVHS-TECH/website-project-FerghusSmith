@@ -603,7 +603,7 @@ button:hover {
         height: 40px;
     }
     button {
-        width: 100px;
+        width: 175px;
         height: 30px;
     }
     p {
@@ -673,7 +673,7 @@ button:hover {
         grid-column: 1 / span 2;
     }
     .navp1 button {
-        width: 200px;
+        width: 380px;
     }
     .headergrid {
         height: 150px;
@@ -706,7 +706,7 @@ button:hover {
         height: 40px;
     }
     button {
-        width: 100px;
+        width: 150px;
         height: 30px;
     }
     p {
@@ -772,9 +772,16 @@ button:hover {
         grid-column: 1 / span 2;
         justify-self: center;
     }
+    .navp1 {
+        grid-column: 1 / span 2;
+    }
+    .navp1 button {
+        width: 300px;
+    }
     .headergrid {
+        height: 150px;
         grid-template-columns: auto auto;
-        grid-template-rows: 50px 33px;
+        grid-template-rows: 50px 33px 33px 33px;
     }
     .SubSiteContainer {
         grid-template-rows: 130px 50px 190px 190px 190px;
@@ -868,9 +875,16 @@ button:hover {
         grid-column: 1 / span 2;
         justify-self: center;
     }
+    .navp1 {
+        grid-column: 1 / span 2;
+    }
+    .navp1 button {
+        width: 200px;
+    }
     .headergrid {
+        height: 150px;
         grid-template-columns: auto auto;
-        grid-template-rows: 50px 33px;
+        grid-template-rows: 50px 33px 33px 33px;
     }
     .SubSiteContainer {
         grid-template-rows: 130px 50px 200px 200px 200px;
