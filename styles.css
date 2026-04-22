@@ -24,6 +24,7 @@ header {
 }
 .headergrid {
     display: grid;
+    background-color: #04041b;
 }
 footer {
     position: fixed;
@@ -370,20 +371,16 @@ button:hover {
         grid-template-columns: 33% 33% 33%;
         gap: 5px;
     }
-
     .item1 {
         margin-bottom: 5%;
     }
-
     .row2 {
         padding: 10px;
         margin-bottom: 10%;
     }
-
     .headergrid {
         grid-template-columns: 15% 17% 17% 17% 17% 17%;
     }
-
     .row2 img {
         width: 190px;
         height: 190px;
@@ -672,15 +669,19 @@ button:hover {
         grid-column: 1 / span 2;
         justify-self: center;
     }
-    .avp1 {
+    .navp1 {
         grid-column: 1 / span 2;
     }
+    .navp1 button {
+        width: 200px;
+    }
     .headergrid {
+        height: 150px;
         grid-template-columns: auto auto;
-        grid-template-rows: 50px 33px;
+        grid-template-rows: 50px 33px 33px 33px;
     }
     .SubSiteContainer {
-        grid-template-rows: 130px 50px 180px 180px 180px;
+        grid-template-rows: 170px 50px 180px 180px 180px;
         grid-template-columns: 49% 1% 49%;
     }
     .SSimg img {
