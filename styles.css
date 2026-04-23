@@ -7,13 +7,15 @@ body {
     margin: 0;
     text-decoration: none;
 }
+a {
+    color:white;
+}
 header {
     position: fixed;
     background-color: #04041b;
     width: 100%;
     bottom: 90%;
     left: 0%;
-    color: white;
 }
 .headergrid {
     display: grid;
@@ -24,7 +26,6 @@ footer {
     background-color: #04041b;
     width: 110%;
     left: 0%;
-    color: white;
 }
 button {
     background-color: #fecf64;
