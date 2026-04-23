@@ -1,20 +1,13 @@
 body {
     background-color: #06060c;
+    color: white;
 }
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
 }
-p {
-    color: white;
-}
-h1 {
-    color: white;
-}
-h3 {
-    color: white;
-}
+
 header {
     position: fixed;
     background-color: #04041b;
@@ -47,7 +40,12 @@ button:hover {
 }
 .item-1{
     grid-column: 1 / span 3;
-} 
+}
+.item-2 {
+    background-color: black;
+    grid-column: 1 / span 3;
+    height: 250px;
+}
 .item0 {
     grid-column: 1 / span 3;
     background-color: #06060c;
