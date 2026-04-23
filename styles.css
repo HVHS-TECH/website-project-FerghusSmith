@@ -520,6 +520,9 @@ button:hover {
         grid-template-rows: 110px 70px 40px 400px 40px 400px 40px 200px;
         gap: 5px;
     }
+    .item100 {
+        grid-column: 1 / span 3;
+    }
     .item1 {
         margin-bottom: 0%;
         order: 1;
