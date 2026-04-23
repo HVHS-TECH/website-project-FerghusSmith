@@ -47,7 +47,7 @@ button:hover {
 }
 .item-1{
     grid-column: 1 / span 3;
-}
+} 
 .item0 {
     grid-column: 1 / span 3;
     background-color: #06060c;
