@@ -45,6 +45,9 @@ button:hover {
     color: white;
     gap: 5px;
 }
+.item-1{
+    grid-column: 1 / span 3;
+}
 .item0 {
     grid-column: 1 / span 3;
     background-color: #06060c;
@@ -519,9 +522,6 @@ button:hover {
     .SiteContainer {
         grid-template-rows: 110px 70px 40px 400px 40px 400px 40px 200px;
         gap: 5px;
-    }
-    .item100 {
-        grid-column: 1 / span 3;
     }
     .item1 {
         margin-bottom: 0%;
